@@ -1,0 +1,6 @@
+read.table("time.txt")
+sp = spline(data$V1,data$V2,1000)
+sp1 = spline(data$V1,data$V3,1000)
+plot(sp,col="red",type="l",lwd=2,xlab="Count",ylab="time/ms")
+lines(sp1,col="blue",type="l",lwd=2)
+legend("topleft",legend=c("greedy","lineProgram"),col=c("red","blue"),lwd=2)
