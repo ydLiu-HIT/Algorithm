@@ -10,13 +10,18 @@ question and method
 
 未进行第一步结果：(500 reads)
 - good alignment: 477; correct alignment: 193; hit all: 403
+
 进行第一步结果：(500 reads) first
 - good alignment: 475; correct alignment: 195; hit all: 402
+
 进行第一步结果：(500 reads) second
 - good alignment: 479; correct alignment: 201; hit all: 396
+
 进行第一步结果：(500 reads) third ,adjust the gap and extension score same to DNA aligner
 - good alignment: 495; correct alignment: 213; hit all: 397
+
 进行第一步结果：(500 reads) fouth ,adjust the binary_search_anchor() function, and solve the bug
 - good alignment: 494; correct alignment: 213; hit all: 406
+
 进行第四步结果：(500 reads)
 - good alignment: 495; correct alignment: 215; hit all: 406
