@@ -25,3 +25,13 @@ question and method
 
 进行第四步结果：(500 reads)
 - good alignment: 495; correct alignment: 215; hit all: 406
+
+
+
+
+
+
+
+qlen 和 tlen的长度差计算公式:
+*len(tlen - qlen) = tlen\*error_rate\* (error_rate_deletion - error_rate_insertion)\*every_len_of_deletion*
+
