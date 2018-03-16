@@ -39,3 +39,5 @@ qlen 和 tlen的长度差计算公式:
 对于ONT 2D一般：
 error_rate = 13.4%, error_rate_deletion/error_rate = 35.70%, error_rate_insertion/error_rate = 23.30%, average_len_of_deletion = 3bp
 
+ref: Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technologies and their applications to transcriptome analysis
+
