@@ -27,6 +27,15 @@ question and method
 - good alignment: 495; correct alignment: 215; hit all: 406
 
 
+dataset_sim_dm_g2as运行结果比较：
+1. tgs_2pass:
+good alignment: 11762; correct alignment: 2728; hit all: 9516
+2. tgs_1pass
+good alignment: 11776; correct alignment: 2769; hit all: 9402
+3. minimap2.6
+good alignment: 11725; correct alignment: 2660; hit all: 9051
+
+
 
 
 
@@ -40,4 +49,9 @@ qlen 和 tlen的长度差计算公式:
 error_rate = 13.4%, error_rate_deletion/error_rate = 35.70%, error_rate_insertion/error_rate = 23.30%, average_len_of_deletion = 3bp
 
 ref: Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technologies and their applications to transcriptome analysis
+
+
+×××××××××××××××××
+可能存在bug的一些地方：
+1. 对于splice_distance = 100000的问题。由于在merge_anchor的过程中去掉了一些anchor，导致两个anchor之间的距离大于splice_distance.(可以解决)
 
