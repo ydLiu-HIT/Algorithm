@@ -28,11 +28,13 @@ question and method
 
 
 dataset_sim_dm_g2as运行结果比较：
-1. tgs_2pass:
-good alignment: 11762; correct alignment: 2728; hit all: 9516
-2. tgs_1pass
-good alignment: 11776; correct alignment: 2769; hit all: 9402
-3. minimap2.6
+1. tgs_2pass: 
+good alignment: 11839; correct alignment: 2730; hit all: 9516
+1.1 tgs_2pass_waitlen:
+good alignment: 11851; correct alignment: 2738; hit all: 9545  （the main reason for hit all is the left and right ext）
+2. tgs_1pass: 
+good alignment: 11815; correct alignment: 2774; hit all: 9402
+3. minimap2.6: 
 good alignment: 11725; correct alignment: 2660; hit all: 9051
 
 
