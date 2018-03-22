@@ -57,3 +57,5 @@ ref: Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technol
 可能存在bug的一些地方：
 1. 对于splice_distance = 100000的问题。由于在merge_anchor的过程中去掉了一些anchor，导致两个anchor之间的距离大于splice_distance.(可以解决)
 
+**this is **
+
