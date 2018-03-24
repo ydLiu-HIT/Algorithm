@@ -30,12 +30,19 @@ question and method
 dataset_sim_dm_g2as运行结果比较：
 1. tgs_2pass: 
 good alignment: 11839; correct alignment: 2730; hit all: 9516
-1.1 tgs_2pass_waitlen:
+1.1 tgs_2pass_waitlen: 
 good alignment: 11851; correct alignment: 2738; hit all: 9545  （the main reason for hit all is the left and right ext）
+1.2 left and right ext:
+good alignment: 11616; correct alignment: 2736; hit all: 10290 
+1.3 left and right ext adding splice_offset
+good alignment: 11702; correct alignment: 2813; hit all: 10254 
+
 2. tgs_1pass: 
 good alignment: 11815; correct alignment: 2774; hit all: 9402
 3. minimap2.6: 
 good alignment: 11725; correct alignment: 2660; hit all: 9051
+4. gmap
+hit all: 9872  
 
 
 
@@ -57,5 +64,5 @@ ref: Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technol
 可能存在bug的一些地方：
 1. 对于splice_distance = 100000的问题。由于在merge_anchor的过程中去掉了一些anchor，导致两个anchor之间的距离大于splice_distance.(可以解决)
 
-**this is **
+**Process_pbsim_data** 有问题，需要改正
 
