@@ -30,12 +30,19 @@ question and method
 dataset_sim_dm_g2as运行结果比较：
 1. tgs_2pass: 
 good alignment: 11839; correct alignment: 2730; hit all: 9516
+
 1.1 tgs_2pass_waitlen: 
 good alignment: 11851; correct alignment: 2738; hit all: 9545  （the main reason for hit all is the left and right ext）
+
 1.2 left and right ext:
 good alignment: 11616; correct alignment: 2736; hit all: 10290 
+
 1.3 left and right ext adding splice_offset
 good alignment: 11702; correct alignment: 2813; hit all: 10254 
+
+1.4 left and right ext adding splice_offset and judge the key of first and last anchor for filtering
+good alignment: 11722; correct alignment: 2814; hit all: 1025
+
 
 2. tgs_1pass: 
 good alignment: 11815; correct alignment: 2774; hit all: 9402
