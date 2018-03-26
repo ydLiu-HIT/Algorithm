@@ -41,11 +41,15 @@ good alignment: 11616; correct alignment: 2736; hit all: 10290
 good alignment: 11702; correct alignment: 2813; hit all: 10254 
 
 1.4 left and right ext adding splice_offset and judge the key of first and last anchor for filtering
-good alignment: 11722; correct alignment: 2814; hit all: 1025
+ (splicedistance = 100000) : good alignment: 11722; correct alignment: 2814; hit all: 10253
+ (splicedistance = 100000， thre  30) : good alignment: 11776; correct alignment: 2820; hit all: 10108 （ignor）
+ (splicedistance = 200000) : good alignment: 11709; correct alignment: 2790; hit all: 10273 (ignore)
+ (splicedistance = 200000, thre = 30) : good alignment: 11784; correct alignment: 2820; hit all: 10132
+ (splicedistance = 200000, thre = 20) : good alignment: 11755; correct alignment: 2813; hit all: 10222
 
-
-2. tgs_1pass: 
-good alignment: 11815; correct alignment: 2774; hit all: 9402
+2. tgs_1pass:
+ (splicedistance = 100000) : good alignment: 11815; correct alignment: 2774; hit all: 9402
+ (splicedistance = 200000) : good alignment: 11769; correct alignment: 2769; hit all: 9465
 3. minimap2.6: 
 good alignment: 11725; correct alignment: 2660; hit all: 9051
 4. gmap
